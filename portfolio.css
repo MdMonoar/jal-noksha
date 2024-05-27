@@ -284,6 +284,10 @@ body{
     ._border-lg-start {
         border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
     }
+    ._mw-300px-lg{
+        width: 100%;
+        max-width: 300px !important;
+    }
 }
 
 ._section{
