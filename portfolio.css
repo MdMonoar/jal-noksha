@@ -245,10 +245,6 @@ body{
     transition: color 0.3s;
 }
 
-._mw-300px{
-    width: 100%;
-    max-width: 300px !important;
-}
 
 ._newsletter_envelop:hover{
     color: silver !important;
@@ -267,6 +263,12 @@ body{
 
 ._border-lg-start {
     border-left: none !important;
+}
+
+
+._mw-300px{
+    width: 100%;
+    max-width: 300px !important;
 }
 
 @media (min-width: 768px) {
