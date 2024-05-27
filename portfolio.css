@@ -271,6 +271,10 @@ body{
     max-width: 300px !important;
 }
 
+._mw-215px{
+    width: 215px;
+}
+
 @media (min-width: 768px) {
     ._skills {
         row-gap: 4%;
