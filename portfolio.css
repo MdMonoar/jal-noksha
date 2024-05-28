@@ -287,7 +287,7 @@ body{
     z-index: 5;
     position: fixed;
     bottom: -30px;
-    right: 2vw;
+    right: 30px;
     background: none;
     height: 35px;
     width: 35px;
@@ -298,6 +298,12 @@ body{
     height: 35vw;
     min-height: 400px;
     width: auto;
+}
+
+@media (max-width: 576px) {
+    ._back_to_top{
+        right: 20px;
+    }
 }
 
 @media (min-width: 768px) {

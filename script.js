@@ -6,7 +6,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
     let top = 100; // pixel value from top
     if (document.body.scrollTop > top || document.documentElement.scrollTop > top) {
-        _back_to_top.style.bottom = "6vh";
+        _back_to_top.style.bottom = "30px";
     } else {
         _back_to_top.style.bottom = "-30px";
     }
