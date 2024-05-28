@@ -283,6 +283,16 @@ body{
     min-width: 100px !important;
 }
 
+._back_to_top{
+    z-index: 5;
+    position: fixed;
+    bottom: 6vh;
+    right: 2vw;
+    background: none;
+    height: 35px;
+    width: 35px;
+}
+
 @media (min-width: 768px) {
     ._skills {
         row-gap: 4%;
