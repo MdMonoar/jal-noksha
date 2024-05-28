@@ -200,7 +200,7 @@ body{
 
 ._skill-card {
     min-height: 225px !important;
-    width: 21vh !important;
+    width: 19% !important;
     min-width: 225px !important;
 }
 
@@ -256,7 +256,7 @@ body{
 ._skills{
     flex-wrap: wrap; 
     row-gap: 1rem; 
-    column-gap: 4%;
+    column-gap: 2%;
 }
 
 ._text-lg-left{
