@@ -94,6 +94,12 @@ body{
     padding-top: 4rem;
 }
 
+
+
+
+
+/* icons */
+
 ._icons_vertical a{
     /* border: 2px solid seagreen; */
     /* display: flex; */
@@ -109,14 +115,33 @@ body{
     /* cursor: pointer; */
 }
 
-._icons_vertical a:hover{
+/* ._icons_vertical a:hover{
     color: black;
     background-color: seagreen;
-    box-shadow: 2px 2px 2px grey;
-    /* border: 1px solid darkgreen; */
+    box-shadow: 2px 2px 1px grey;
+    border: 1px solid darkgreen;
     border-color: black;
     border-radius: 10%;
+} */
+
+._social_icon{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s;
 }
+
+._social_icon:hover{
+    background-color: seagreen;
+    color: black !important;
+}
+
+
+
+
 
 ._justify_text{
     text-align: justify;
@@ -298,6 +323,7 @@ body{
     background-color: seagreen;
     color: black !important;
 }
+
 
 ._hero_img{
     height: 35vw;
