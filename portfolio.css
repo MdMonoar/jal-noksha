@@ -39,6 +39,9 @@ body{
     margin-bottom: 0.5rem; */
   }
 
+._small-1{
+    font-size: 0.8rem;
+}
 
 
 
@@ -273,6 +276,11 @@ body{
 
 ._mw-215px{
     width: 215px;
+}
+
+._w-100px{
+    width: 100px !important;
+    min-width: 100px !important;
 }
 
 @media (min-width: 768px) {
