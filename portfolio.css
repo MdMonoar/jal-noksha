@@ -286,11 +286,12 @@ body{
 ._back_to_top{
     z-index: 5;
     position: fixed;
-    bottom: 6vh;
+    bottom: -30px;
     right: 2vw;
     background: none;
     height: 35px;
     width: 35px;
+    transition: all 0.3s;
 }
 
 @media (min-width: 768px) {
