@@ -294,6 +294,11 @@ body{
     transition: all 0.3s;
 }
 
+._back_to_top:hover{
+    background-color: seagreen;
+    color: black !important;
+}
+
 ._hero_img{
     height: 35vw;
     min-height: 400px;
