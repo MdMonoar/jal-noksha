@@ -301,9 +301,7 @@ body{
 }
 
 @media (max-width: 576px) {
-    ._back_to_top{
-        right: 20px;
-    }
+
 }
 
 @media (min-width: 768px) {
