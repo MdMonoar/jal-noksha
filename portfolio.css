@@ -57,10 +57,27 @@ body{
     color: white;
     /* text-decoration-color: red; */
     font-weight: bold;
+    text-decoration: none;
+}
+
+._nav_items{
+    width: 80%;
+}
+
+.active{
+    color: seagreen !important;
+}
+
+
+@media (max-width: 1200px) {
+    ._nav_items{
+        width: 95% !important;
+    }
 }
 
 .nav-item{
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
+    margin-left: auto;
 }
 
 ._vertical_middle_inline{

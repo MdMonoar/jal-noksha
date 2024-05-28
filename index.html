@@ -8,53 +8,53 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
 </head>
-<body class="bg-dark">
+<body class="bg-dark" data-bs-spy="scroll" data-bs-target="#nav_spy">
     <!--- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark bg-none">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark bg-none" id="nav_spy">
         <div class="container">
             <a class="navbar-brand d-flex" href="#">
                 <!-- <img src="" alt=""> -->
                 <div class="_logo_circle me-2"></div>
-                <i class="h4 lh-1 align-self-center mb-0">Md. Manuaruzzaman</i>
+                <i class="h4 lh-1 align-self-center mb-0">Manuaruzzaman</i>
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto container-fluid d-flex justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+            <div class="collapse  navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav _nav_items ml-auto d-flex justify-content-between">
+                    <li class="">
+                        <a class="" href="#home">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                    <li class="">
+                        <a class="" href="#about">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
+                    <li class="">
+                        <a class="" href="#education">Education</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                    <li class="">
+                        <a class="" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Experience</a>
+                    <li class="">
+                        <a class="" href="#experience">Experience</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Research</a>
+                    <li class="">
+                        <a class="" href="#research">Research</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                    <li class="">
+                        <a class="" href="#skills">Skills</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                    <li class="">
+                        <a class="" href="#services">Services</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    <li class="">
+                        <a class="" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!--Banner-->
-    <div class="container _pt-6">
+    <div class="container _pt-6" id="home">
         <div class="row pt-5">
             <div class="col-lg-7 col-md-8 text-white">
                 <span class="_vertical_middle_inline row-gap-3">
@@ -124,7 +124,7 @@
         </div>
     </div>
     <!--About-->
-    <div class="container _section">
+    <div class="container _section" id="about">
         <div class="row gy-5">
             <div class="col-lg-6">
                 <img class="img-fluid rounded" src="about-1.jpg" alt="About Image">
@@ -162,7 +162,7 @@
         </div>
     </div>
     <!--Education-->
-    <div class="bg-black _section">
+    <div class="bg-black _section" id="education">
         <div class="container">
             <div class="row gy-5">
                 <div class="col-lg-6">
@@ -220,7 +220,7 @@
         </div>
     </div>
     <!--Projects-->
-    <div class="container _section">
+    <div class="container _section" id="projects">
         <div class="text-white text-center d-flex flex-column row-gap-2">
             <div class="text-success text-uppercase fs-5 fw-medium fw-bolder _section-title">Projects</div>
             <div class="h2 lh-1">Recent Works</div>
@@ -394,7 +394,7 @@
         </div>
     </div>
     <!--Experience-->
-    <div class="bg-black _section">
+    <div class="bg-black _section" id="experience">
         <div class="container">
             <div class="row gy-5">
                 <div class="col-lg-6">
@@ -452,7 +452,7 @@
         </div>
     </div>
     <!--Research-->
-    <div class="container _section">
+    <div class="container _section" id="research">
         <div class="text-white text-center d-flex flex-column row-gap-2">
             <div class="text-success text-uppercase fs-5 fw-medium fw-bolder _section-title">Research</div>
             <div class="h2 lh-1">My Recent Works</div>
@@ -583,7 +583,7 @@
         </div>
     </div>
     <!--Skills-->
-    <div class="container _section">
+    <div class="container _section" id="skills">
         <div class="text-white text-center d-flex flex-column row-gap-2">
             <div class="text-success text-uppercase fs-5 fw-medium fw-bolder _section-title">Skills</div>
             <div class="h2 lh-1">Growing Over Times</div>
@@ -718,7 +718,7 @@
         </div>
     </div>
     <!--Services-->
-    <div class="container _section">
+    <div class="container _section" id="services">
         <div class="text-white text-center d-flex flex-column row-gap-2">
             <div class="text-success text-uppercase fs-5 fw-medium fw-bolder _section-title">Services</div>
             <div class="h2 lh-1">What I Provide</div>
@@ -774,7 +774,7 @@
         </div>
     </div>
     <!--Contact-->
-    <div class="bg-black _section">
+    <div class="bg-black _section" id="contact">
         <div class="container">
             <div class="row row-gap-3">
                 <div class="col-lg-5 pe-lg-5">
