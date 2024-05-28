@@ -294,6 +294,12 @@ body{
     transition: all 0.3s;
 }
 
+._hero_img{
+    height: 35vw;
+    min-height: 400px;
+    width: auto;
+}
+
 @media (min-width: 768px) {
     ._skills {
         row-gap: 4%;
